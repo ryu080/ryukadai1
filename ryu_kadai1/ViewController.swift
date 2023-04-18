@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textFeild5: UITextField!
     
     
-    @IBOutlet weak var sunLabel: UILabel!
+    @IBOutlet weak var sumLabel: UILabel!
     
     @IBAction func didTapButton(_ sender: Any) {
         let num1 = Int(textFeild1.text ?? "") ?? 0
@@ -30,8 +30,8 @@ class ViewController: UIViewController {
         let num4 = Int(textFeild4.text ?? "") ?? 0
         let num5 = Int(textFeild5.text ?? "") ?? 0
         
-        let sun = num1 + num2 + num3 + num4 + num5
-        sunLabel.text = "\(sun)"
+        let sum = num1 + num2 + num3 + num4 + num5
+        sumLabel.text = "\(sum)"
     }
     
 

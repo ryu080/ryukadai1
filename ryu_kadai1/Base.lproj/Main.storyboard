@@ -91,7 +91,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="sunLabel" destination="8al-Oz-mhI" id="xPe-7a-odZ"/>
+                        <outlet property="sumLabel" destination="8al-Oz-mhI" id="Tcj-l3-chU"/>
                         <outlet property="textFeild1" destination="AAv-CP-AuY" id="Xcg-dE-7TT"/>
                         <outlet property="textFeild2" destination="3Vf-HZ-RiU" id="fy1-QA-hNP"/>
                         <outlet property="textFeild3" destination="tZA-Ve-kGB" id="okv-O8-cjR"/>
