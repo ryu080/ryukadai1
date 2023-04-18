@@ -14,20 +14,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var textFile1: UITextField!
-    @IBOutlet weak var textFile2: UITextField!
-    @IBOutlet weak var textFile3: UITextField!
-    @IBOutlet weak var textFile4: UITextField!
+    @IBOutlet weak var textFeild1: UITextField!
+    @IBOutlet weak var textFeild2: UITextField!
+    @IBOutlet weak var textFeild3: UITextField!
+    @IBOutlet weak var textFeild4: UITextField!
+    @IBOutlet weak var textFeild5: UITextField!
+    
     
     @IBOutlet weak var sunLabel: UILabel!
     
     @IBAction func didTapButton(_ sender: Any) {
-        let num1 = Int(textFile1.text ?? "") ?? 0
-        let num2 = Int(textFile2.text ?? "") ?? 0
-        let num3 = Int(textFile3.text ?? "") ?? 0
-        let num4 = Int(textFile4.text ?? "") ?? 0
+        let num1 = Int(textFeild1.text ?? "") ?? 0
+        let num2 = Int(textFeild2.text ?? "") ?? 0
+        let num3 = Int(textFeild3.text ?? "") ?? 0
+        let num4 = Int(textFeild4.text ?? "") ?? 0
+        let num5 = Int(textFeild5.text ?? "") ?? 0
         
-        let sun = num1 + num2 + num3 + num4
+        let sun = num1 + num2 + num3 + num4 + num5
         sunLabel.text = "\(sun)"
     }
     
