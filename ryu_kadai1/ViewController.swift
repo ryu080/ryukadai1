@@ -9,18 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     @IBOutlet weak var textFeild1: UITextField!
     @IBOutlet weak var textFeild2: UITextField!
     @IBOutlet weak var textFeild3: UITextField!
     @IBOutlet weak var textFeild4: UITextField!
     @IBOutlet weak var textFeild5: UITextField!
-    
-    
+
     @IBOutlet weak var sumLabel: UILabel!
     
     @IBAction func didTapButton(_ sender: Any) {
@@ -33,7 +27,4 @@ class ViewController: UIViewController {
         let sum = num1 + num2 + num3 + num4 + num5
         sumLabel.text = "\(sum)"
     }
-    
-
 }
-
